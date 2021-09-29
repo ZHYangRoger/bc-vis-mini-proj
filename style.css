@@ -1,0 +1,53 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0px 2px #0000000d;
+    background-color: white;
+    z-index: 1000;
+}
+
+.flex-container > li{
+    font-size: 23px;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: rgba(43, 130, 211, 0.911);
+}
+
+.container{
+    margin-top: 95px;
+    text-align: center;
+}
+
+.column{
+    text-align: left;
+}
+
+.container{
+    font-family: 'Playfair Display', serif;
+}
+
+.container a{
+    font-size: larger;
+}
+
+h1{
+    color:black;
+    font-size: 55px;
+}
+
+h2{
+    color:black;
+}
